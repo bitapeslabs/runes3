@@ -1,0 +1,25 @@
+{
+  "name": "runesjs",
+  "version": "1.0.0",
+  "description": "Wrapper for bitcoin runes and satsignal's rune rpc\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[C utilities and satsignal's rpc\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[D",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/runeapeslabs/runesjs.git"
+  },
+  "keywords": [
+    "runes",
+    "runes-api",
+    "satsginal",
+    "bitcoin"
+  ],
+  "author": "Runeapeslabs",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/runeapeslabs/runesjs/issues"
+  },
+  "homepage": "https://github.com/runeapeslabs/runesjs#readme"
+}
