@@ -2,4 +2,6 @@
 
 # runes3
 
-Rune api with wrappers built around satsignal
+A Javascript library for interacting with Bitcoin Runes
+
+Documentation can be found at: https://github.com/runeapeslabs/runes3
