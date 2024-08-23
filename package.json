@@ -1,6 +1,6 @@
 {
   "name": "runes3",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A Javascript library for interacting with Bitcoin Runes",
   "main": "index.js",
   "scripts": {
@@ -22,7 +22,7 @@
   "bugs": {
     "url": "https://github.com/runeapeslabs/runes3/issues"
   },
-  "homepage": "https://github.com/runeapeslabs/runes3#readme",
+  "homepage": "https://runes3.org",
   "devDependencies": {
     "@types/node": "^22.5.0",
     "typescript": "^5.5.4"
