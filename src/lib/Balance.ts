@@ -24,7 +24,7 @@ export interface IBalancesResponse {
 export interface IBalance {
   balance: string;
   rune: types.IRune;
-  parse(): string;
+  getAmount(): string;
 }
 
 export class Balances extends Map<IBalance> {
