@@ -1,8 +1,8 @@
 {
   "name": "runes3",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "A Javascript library for interacting with Bitcoin Runes",
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
     "test": "npm run build && node test.js",
     "build": "tsc"
