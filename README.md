@@ -76,7 +76,7 @@ const start = async () => {
   console.log("This address has the following runes: ", balances.keys());
 
   console.log("The balance for 845769:3964 is: ");
-  const balance = balances.get("845769:3964").parse();
+  const balance = balances.get("845769:3964").getAmount();
 
   console.log(balance);
 };

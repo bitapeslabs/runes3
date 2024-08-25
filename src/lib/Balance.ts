@@ -45,7 +45,7 @@ export class Balance implements IBalance {
     this.rune = rune;
   }
 
-  parse(): string {
+  getAmount(): string {
     // Ensure balance and decimals are BigInt
     const balanceBigInt = BigInt(this.balance);
     const decimalsBigInt = BigInt(this.rune.decimals);
