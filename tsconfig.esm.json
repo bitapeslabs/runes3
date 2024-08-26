@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "module": "ES2020",
+    "declaration": false,   // Declarations are handled by CommonJS config
+    "outDir": "./lib/esm",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "moduleResolution": "node"  // Ensures Node.js module resolution
+
+  },
+  "include": ["src/**/*"]
+}

@@ -2,10 +2,12 @@
   "name": "runes3",
   "version": "1.0.5",
   "description": "A Javascript library for interacting with Bitcoin Runes",
-  "main": "lib/index.js",
+  "main": "lib/cjs/index.js",
   "scripts": {
-    "test": "npm run build && node test.js",
-    "build": "tsc"
+    "build:cjs": "tsc --project tsconfig.json",
+    "build:esm": "rollup -c",
+    "build": "npm run build:cjs && npm run build:esm",
+    "test": "npm run build && node test.js"
   },
   "repository": {
     "type": "git",
@@ -69,10 +71,17 @@
   "homepage": "https://runes3.org",
   "devDependencies": {
     "@types/node": "^22.5.0",
+    "rollup-plugin-ignore": "^1.0.10",
     "typescript": "^5.5.4"
   },
   "dependencies": {
+    "@rollup/plugin-commonjs": "^26.0.1",
+    "@rollup/plugin-node-resolve": "^15.2.3",
     "axios": "^1.7.4",
-    "chalk": "^4.0.0"
+    "kleur": "^4.1.5",
+    "rollup": "^4.21.1",
+    "rollup-plugin-node-builtins": "^2.1.2",
+    "rollup-plugin-node-globals": "^1.4.0",
+    "rollup-plugin-typescript2": "^0.36.0"
   }
 }
